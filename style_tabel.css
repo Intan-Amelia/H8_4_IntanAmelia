@@ -1,0 +1,28 @@
+body {
+	font-family : "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+}
+.tabel {
+	border-collapse : collapse;
+	font-size : 15px;
+}
+.tabel th, .tabel td {
+	border : 1px solid #e1edff;
+	padding : 5px 15px;
+}
+.tabel thead th {
+	background-color : #508abb;
+	color : #FFFFFF;
+	border-color : #6ea1cc !important;
+}
+.tabel tbody td {
+	color : #353535;
+}
+.tabel tbody tr:nth-child(odd) td {
+	background-color : #f4fbff;
+}
+.tabel tfoot td {
+	background-color : #e5f5ff;
+}
+.tabel tbody td:empty {
+	background-color : #ffcccc;
+}
