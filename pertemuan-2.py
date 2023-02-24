@@ -123,3 +123,49 @@ print('_________________________________________')
 if True:
     pass
 print('foo')
+
+print('_________________________________________')
+
+n=5
+while n>0:
+    n -= 1
+    print(n)
+
+print('_________________________________________')
+
+n=5
+while n>0:
+    n -= 1
+    if n == 2:
+        break
+    print(n)
+print('Loop ended')
+
+print('_________________________________________')
+
+n=5
+while n>0:
+    n -= 1
+    print(n)
+else:
+    print('Loop ended')
+
+print('_________________________________________')
+
+a=['foo','bar','baz']
+for i in a:
+    print(i)
+
+print('_________________________________________')
+
+x=range(5)
+for n in x:
+    print(n)
+
+print('_________________________________________')
+
+x=range(5)
+for n in x:
+    print(n)
+else:
+    print('Done')
