@@ -1,4 +1,4 @@
-x = 0
+'''x = 0
 y = 55
 if x<y:
     print("yes")
@@ -122,4 +122,14 @@ print('_________________________________________')
 
 if True:
     pass
-print('foo')
+print('foo')'''
+
+x = 0
+while (x < 100):
+    x+=2
+print(x)
+
+for l in 'Idaz':
+    if l == 'a':
+        pass
+    print(l, end=", ")
